@@ -1,0 +1,10 @@
+email_real = "prova@gmail.com"
+senha_real = "1234"
+while True:
+    email_usuario = input("Digite seu email:\n")
+    senha_usuario = input("Digite sua senha:\n")
+    if email_real == email_usuario and senha_real == senha_usuario:
+        print("Dados conferem, acesso concedido")
+        break
+    else:
+        print("Email ou senha incorretos, Tente novamente...\n")
